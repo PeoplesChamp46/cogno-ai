@@ -5,12 +5,26 @@
   font-family: "DM Sans", sans-serif;
 }
 
+.header {
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+  padding: 0 10%;
+
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+
+  display: flex;
+  align-items: center;
+}
+
 .container {
   display: none;
   position: absolute;
   bottom: 0;
   right: 0;
-  width: max-content;
   animation: open-up 0.3s ease-in-out;
 }
 
@@ -21,8 +35,6 @@
   right: 20px;
   font-size: 33px;
 }
-
-
 
 .chat-icon {
   width: 100px;
@@ -55,4 +67,19 @@
     transform: scale(1);
     transform-origin: bottom right;
   }
+}
+
+@media screen and (max-width : 375px) {
+
+  .container{
+
+    width: 100%;
+    height: 100%;
+  }
+
+  .bot-frame{
+    width: 100%;
+    height: 100%;
+  }
+  
 }
