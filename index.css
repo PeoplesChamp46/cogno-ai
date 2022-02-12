@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: max-content;
+  animation: open-up 0.3s ease-in-out;
+}
+
+#close {
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 33px;
+}
+
+
+
+.chat-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-icon > img {
+  transform: scale(1.5);
+}
+
+@keyframes open-up {
+  0% {
+    transform: scale(0.1);
+    transform-origin: bottom right;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: bottom right;
+  }
+}
