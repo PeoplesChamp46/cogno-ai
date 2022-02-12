@@ -14,16 +14,13 @@
     />
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body >
-    <div class="container"
-    onclick="closeBot()">
+  <body>
+    <div class="container" onclick="closeBot()">
       <iframe
         class="bot-frame"
         height="629"
         width="426"
         frameborder="0"
-        loading=""
-        
       ></iframe>
     </div>
 
@@ -35,14 +32,12 @@
       function displayBot() {
         document.querySelector(".container").style.display = "block";
         document.querySelector(".chat-icon").style.display = "none";
-        document.querySelector(".bot-frame").src="./chatbot.html";
-       
+        document.querySelector(".bot-frame").src = "./chatbot.html";
       }
 
       function closeBot() {
         document.querySelector(".container").style.display = "none";
         document.querySelector(".chat-icon").style.display = "block";
-
       }
 
       /*  let btn = document.querySelector('.chat-icon');
