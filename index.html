@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- <div class="header">
@@ -20,7 +21,571 @@
         Sameer Mestry
       </p>
     </div> -->
+
     <div class="container" onclick="closeBot()">
+      <div class="blank">
+        <div class="logo">
+          <img src="./asset/navs/Rectangle.svg" alt="" />
+        </div>
+
+        <div class="navbar">
+          <div class="nav-icon">
+            <img src="./asset/navs/Frame.svg" alt="" />
+          </div>
+          <div class="nav-icon">
+            <img src="./asset/navs/Frame (1).svg" alt="" />
+          </div>
+          <div class="nav-icon">
+            <img src="./asset/navs/Frame (2).svg" alt="" />
+          </div>
+          <div class="nav-icon">
+            <img src="./asset/navs/Frame (3).svg" alt="" />
+          </div>
+          <div class="nav-icon">
+            <img src="./asset/navs/Frame (4).svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!--  ========================
+              groups and chats section
+              ======================== -->
+
+      <div class="groupsNchat">
+        <div class="groups">
+          <div class="head-group">
+            <div class="tab-header">
+              <p>groups</p>
+              <img src="./asset/Add.svg" alt="" />
+            </div>
+            <div class="tab-input">
+              <input type="text" placeholder="connect" />
+
+              <img id="tab-input-search" src="./asset/Search.svg" alt="" />
+            </div>
+          </div>
+          <div class="tab-container">
+            <div class="tab-groups">
+              <p id="group-name">group name</p>
+              <div class="tab-group-chat">
+                <div class="profile">
+                  <div class="status active"></div>
+
+                  <img src="https://source.unsplash.com/random/34X34" alt="" />
+                </div>
+                <div class="tab-group-chat-text">
+                  <div class="title-container">
+                    <p id="group-member">Katty Johns</p>
+                    <p id="group-timer">3:15 PM</p>
+                  </div>
+                  <div class="group-messages">
+                    <p>
+                      I’m looking to work with a designer that Individuals and
+                      interacti...
+                    </p>
+                    <div class="unread">
+                      <img src="./asset/unread.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-groups">
+              <p id="group-name">group 2</p>
+              <div class="tab-group-chat">
+                <div class="profile">
+                  <div class="status"></div>
+                  <img src="https://source.unsplash.com/random/34X34" alt="" />
+                </div>
+                <div class="tab-group-chat-text">
+                  <div class="title-container">
+                    <p id="group-member">Katty Johns</p>
+                    <p id="group-timer">3:15 PM</p>
+                  </div>
+                  <div class="group-messages">
+                    <p>
+                      I’m looking to work with a designer that Individuals and
+                      interacti...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-groups">
+              <p id="group-name">group 3</p>
+              <div class="tab-group-chat">
+                <div class="profile">
+                  <div class="status"></div>
+                  <img src="https://source.unsplash.com/random/34X34" alt="" />
+                </div>
+                <div class="tab-group-chat-text">
+                  <div class="title-container">
+                    <p id="group-member">Katty Johns</p>
+                    <p id="group-timer">3:15 PM</p>
+                  </div>
+                  <div class="group-messages">
+                    <p>
+                      I’m looking to work with a designer that Individuals and
+                      interacti...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-groups">
+              <p id="group-name">group 4</p>
+              <div class="tab-group-chat">
+                <div class="profile">
+                  <div class="status"></div>
+
+                  <img src="https://source.unsplash.com/random/34X34" alt="" />
+                </div>
+                <div class="tab-group-chat-text">
+                  <div class="title-container">
+                    <p id="group-member">Katty Johns</p>
+                    <p id="group-timer">3:15 PM</p>
+                  </div>
+                  <div class="group-messages">
+                    <p>
+                      I’m looking to work with a designer that Individuals and
+                      interacti...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="chats">
+          <div class="tab-header">
+            <p>chats</p>
+            <img src="./asset/Add.svg" alt="" />
+          </div>
+          <div class="tab-groups chat-member">
+            <div class="tab-group-chat">
+              <div class="profile">
+                <div class="status active"></div>
+
+                <img src="https://source.unsplash.com/random/34X34" alt="" />
+              </div>
+              <div class="tab-group-chat-text">
+                <div class="title-container">
+                  <p id="group-member">Katty Johns</p>
+                  <p id="group-timer">3:15 PM</p>
+                </div>
+                <div class="group-messages">
+                  <p>I’m looking to work with a designer...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-groups chat-member">
+            <div class="tab-group-chat">
+              <div class="profile">
+                <div class="status active"></div>
+
+                <img src="https://source.unsplash.com/random/34X34" alt="" />
+              </div>
+              <div class="tab-group-chat-text">
+                <div class="title-container">
+                  <p id="group-member">Katty Johns</p>
+                  <p id="group-timer">3:15 PM</p>
+                </div>
+                <div class="group-messages">
+                  <p>I’m looking to work with a designer...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-groups chat-member">
+            <div class="tab-group-chat">
+              <div class="profile">
+                <div class="status active"></div>
+
+                <img src="https://source.unsplash.com/random/34X34" alt="" />
+              </div>
+              <div class="tab-group-chat-text">
+                <div class="title-container">
+                  <p id="group-member">Katty Johns</p>
+                  <p id="group-timer">3:15 PM</p>
+                </div>
+                <div class="group-messages">
+                  <p>I’m looking to work with a designer...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-groups chat-member">
+            <div class="tab-group-chat">
+              <div class="profile">
+                <div class="status active"></div>
+
+                <img src="https://source.unsplash.com/random/34X34" alt="" />
+              </div>
+              <div class="tab-group-chat-text">
+                <div class="title-container">
+                  <p id="group-member">Katty Johns</p>
+                  <p id="group-timer">3:15 PM</p>
+                </div>
+                <div class="group-messages">
+                  <p>I’m looking to work with a designer...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-groups chat-member">
+            <div class="tab-group-chat">
+              <div class="profile">
+                <div class="status active"></div>
+
+                <img src="https://source.unsplash.com/random/34X34" alt="" />
+              </div>
+              <div class="tab-group-chat-text">
+                <div class="title-container">
+                  <p id="group-member">Katty Johns</p>
+                  <p id="group-timer">3:15 PM</p>
+                </div>
+                <div class="group-messages">
+                  <p>I’m looking to work with a designer...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  ====================
+              conversation section
+              ==================== -->
+
+      <!--     <div class="conversation">
+          <p>group name</p>
+          <div class="input--container">
+            <input type="text" placeholder="connect" />
+
+            <img id="search" src="./asset/Search.svg" alt="" />
+
+            <img src="./asset/Dismiss.svg" alt="" />
+          </div>
+          <button><a href="#">leave</a></button>
+        </div> -->
+
+      <div class="conversation-container">
+        <div class="conversation-header">
+          <p>group name</p>
+          <div class="input--container">
+            <input type="text" placeholder="connect" />
+
+            <img id="search" src="./asset/Search.svg" alt="" />
+
+            <img src="./asset/Dismiss.svg" alt="" />
+          </div>
+          <button><a href="#">leave</a></button>
+        </div>
+
+        <div class="conversation-messenger">
+          <div class="bubble-container">
+            <div class="bubble sent-bubble">
+              <div class="chat-bubble sent">
+                <div class="chat-img-group">
+                  <img src="https://source.unsplash.com/random/?girl" alt="" />
+                  <img src="https://source.unsplash.com/random/?city" alt="" />
+                  <img src="https://source.unsplash.com/random/?food" alt="" />
+                </div>
+              </div>
+              <p>
+                1 days ago
+                <span
+                  ><img src="./asset/input_icons/Group 541 (1).svg" alt=""
+                /></span>
+              </p>
+            </div>
+
+            <div class="bubble recieve">
+              <div class="chat-bubble">
+                <img src="./asset/Group_30.svg" alt="" />
+                <div class="bubble-chat">
+                  <span><button>connect</button></span> Connect with me an agent
+                </div>
+              </div>
+              <p>1 days ago</p>
+            </div>
+            <div class="bubble sent-bubble">
+              <div class="chat-bubble sent">
+                <div class="bubble-chat">Connect with me an agent</div>
+              </div>
+              <p>
+                1 days ago
+                <span
+                  ><img src="./asset/input_icons/Group 541.svg" alt=""
+                /></span>
+              </p>
+            </div>
+
+            <div class="divider">
+              <div class="bubble-chat">Today</div>
+            </div>
+
+            <div class="bubble recieve">
+              <div class="chat-bubble">
+                <img src="./asset/Group_30.svg" alt="" />
+                <div class="bubble-chat">Connect with me an agent</div>
+              </div>
+              <p>1 days ago</p>
+            </div>
+            <div class="bubble sent-bubble">
+              <div class="chat-bubble sent">
+                <div class="bubble-chat">
+                  Connect with me an agent Connect with me an agent Connect with
+                  me an agent
+                </div>
+              </div>
+              <p>
+                1 days ago
+                <span
+                  ><img src="./asset/input_icons/Group 541 (1).svg" alt=""
+                /></span>
+              </p>
+            </div>
+            <div class="bubble recieve">
+              <div class="chat-bubble">
+                <img src="./asset/Group_30.svg" alt="" />
+                <p>Prikshit Sharma</p>
+                <img src="./asset/input_icons/Group 659.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="input--container sent-msg">
+            <input type="text" placeholder="type your message" />
+
+            <img id="search" src="./asset/input_icons/Mic.svg" alt="" />
+
+            <div class="icon-group">
+              <img src="./asset/input_icons/Attach.svg" alt="" />
+              <img src="./asset/input_icons/Image.svg" alt="" />
+              <img src="./asset/input_icons/Send.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  ============
+              user section
+              ============ -->
+      <div class="user-container">
+        <div class="conversation-header-mobile">
+          <div class="left-mob">
+            <img src="./asset/Arrow Left.svg" alt="" />
+            <p>group name</p>
+          </div>
+
+          <div class="right-mob">
+            <img id="search" src="./asset/Search.svg" alt="" />
+            <img src="./asset/More Vertical.svg" alt="" />
+          </div>
+        </div>
+        <div class="user">
+          <img
+            id="mob-nav"
+            src="./asset/Navigation.svg"
+            alt=""
+            onclick="openNav()"
+          />
+
+          <div class="checkbox--container">
+            <div class="check">
+              <label class="switch">
+                <input type="checkbox" name="agent" id="agent" />
+                <span class="slider"></span>
+              </label>
+              agent
+            </div>
+            <div class="check">
+              <label class="switch">
+                <input type="checkbox" name="admin" id="admin" checked />
+                <span class="slider"></span>
+              </label>
+              admin
+            </div>
+          </div>
+          <div class="user-profile">
+            <p>anjali</p>
+            <div class="profile">
+              <img src="./asset/Group_30.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="info-container">
+          <div class="info-group">
+            <div class="tab-header">
+              <p>groups</p>
+              <div class="icons">
+                <img src="./asset/Edit.svg" alt="" />
+                <img src="./asset/Arrow Clockwise.svg" alt="" />
+              </div>
+            </div>
+            <div class="profile-container">
+              <div class="user-profile">
+                <div class="profile">
+                  <img src="./asset/Group_30.svg" alt="" />
+                  <p>Timoth@gdshsj.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="info-desc">
+            <div class="text-content">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="10" cy="10" r="10" fill="#F8F8F8" />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M13.4695 5.01915C13.3446 5.04403 13.2004 5.10504 13.0867 5.18098C13.0278 5.22036 12.1312 6.10311 11.055 7.18122C9.2509 8.98869 9.12755 9.11655 9.10853 9.19888C9.09737 9.24723 9.05058 9.60839 9.00458 10.0015L8.92093 10.7162L8.97599 10.8287C9.03735 10.9541 9.15071 11.0426 9.2768 11.0635C9.3176 11.0702 9.66129 11.0378 10.0739 10.9883C10.6399 10.9203 10.8159 10.8926 10.8747 10.8621C10.9196 10.8388 11.7318 10.0392 12.8851 8.88288C14.6699 7.09348 14.8249 6.93288 14.8815 6.81482C15.0478 6.46744 15.0392 6.11798 14.855 5.7449C14.7828 5.59854 14.7337 5.53093 14.6056 5.40141C14.474 5.26835 14.4136 5.22413 14.2605 5.14857C13.9908 5.0155 13.7145 4.97028 13.4695 5.01915ZM13.8659 5.88104C14.0493 5.96988 14.1617 6.13884 14.1624 6.3271L14.1629 6.43412L12.3318 8.26603L10.5007 10.098L10.171 10.1374C9.98966 10.159 9.83765 10.1731 9.8332 10.1687C9.82876 10.1642 9.84333 10.0123 9.8656 9.83113L9.9061 9.50165L11.678 7.72707C12.6526 6.75104 13.4843 5.927 13.5262 5.89585C13.6211 5.82528 13.74 5.8201 13.8659 5.88104ZM5.97946 6.27958C5.52246 6.37843 5.12835 6.77628 5.0322 7.23582C4.98927 7.44107 4.98927 13.8085 5.0322 14.0138C5.10657 14.3692 5.36195 14.6987 5.68775 14.8595C5.98891 15.0082 5.77278 14.9995 9.15891 14.9999C12.5203 15.0002 12.3526 15.0064 12.6297 14.8729C12.9454 14.7207 13.1894 14.4272 13.2961 14.0711C13.328 13.9647 13.3314 13.8175 13.3375 12.2783C13.3451 10.3735 13.3511 10.4572 13.1981 10.3162C13.0477 10.1776 12.8659 10.1626 12.6898 10.2742C12.622 10.3172 12.5861 10.3586 12.5508 10.4345L12.5031 10.5369L12.5025 12.1874C12.5019 13.7415 12.4998 13.8425 12.4663 13.9163C12.4219 14.0141 12.3113 14.1128 12.215 14.1407C12.1629 14.1558 11.259 14.1603 9.12224 14.1563L6.10307 14.1505L6.02661 14.0971C5.98456 14.0677 5.92819 14.0113 5.90134 13.9716L5.85251 13.8994L5.84745 10.6443L5.84241 7.38909L5.88802 7.3027C5.91311 7.25517 5.97106 7.18991 6.0168 7.15768L6.09998 7.09908L8.009 7.08932L9.918 7.07955L10.0141 7.02085C10.2111 6.90055 10.2759 6.63254 10.1529 6.44666C10.1239 6.40281 10.0635 6.34269 10.0187 6.31306L9.93731 6.25916L8.02185 6.25565C6.43966 6.25274 6.08432 6.2569 5.97946 6.27958Z"
+                  fill="#4D4D4D"
+                />
+              </svg>
+
+              <p>12-Dec-2021</p>
+            </div>
+            <div class="text-content">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="10" cy="10" r="10" fill="#F8F8F8" />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M5.2452 5.05485C5.188 5.08503 5.10941 5.15475 5.07059 5.20982L5 5.30991V10.0039V14.6979L5.05882 14.7847C5.09118 14.8325 5.15911 14.9004 5.20976 14.9357L5.30186 15H10H14.6981L14.7902 14.9357C14.8409 14.9004 14.9088 14.8325 14.9412 14.7847L15 14.6979V10.0058V5.3136L14.9357 5.22161C14.9003 5.17102 14.8323 5.10317 14.7845 5.07086L14.6976 5.0121L10.0234 5.00606L5.34922 5L5.2452 5.05485ZM14.0181 6.49854L14.0245 6.99793H10.0005H5.97647V6.50834C5.97647 6.23904 5.98355 6.01164 5.99224 6.003C6.00089 5.99435 7.80882 5.98993 10.0099 5.9932L14.0118 5.99914L14.0181 6.49854ZM14.0177 11.0107L14.0118 14.013H10H5.98824L5.98226 11.0107L5.97628 8.00847H10H14.0237L14.0177 11.0107ZM7.28235 9.55152C6.89609 9.75454 6.89228 10.2578 7.27553 10.4547C7.35993 10.4981 7.45054 10.4995 9.99318 10.4991C12.5032 10.4986 12.6278 10.4965 12.7176 10.455C13.1038 10.2765 13.1077 9.75429 12.7245 9.55737C12.64 9.51401 12.5497 9.51256 9.99506 9.51347C7.63459 9.51432 7.34541 9.51836 7.28235 9.55152ZM7.32179 11.5369C7.20795 11.5696 7.04393 11.7433 7.0108 11.8662C6.9504 12.0902 7.04572 12.3285 7.24181 12.4436L7.35294 12.5089H8.74118H10.1294L10.2343 12.4501C10.3919 12.3618 10.478 12.2242 10.4896 12.0423C10.5003 11.8752 10.4553 11.7582 10.3375 11.6465C10.1908 11.5075 10.2196 11.5099 8.74781 11.5122C7.96621 11.5134 7.36715 11.5238 7.32179 11.5369Z"
+                  fill="#4D4D4D"
+                />
+              </svg>
+
+              <p>
+                Descrdfzzsdfgxfgzdfgfdffxfxdffgfxdfgfxdgffddxfgc
+                fdxfgfdfgcfxdfgf cxdfgbcfvcv xfgf sxfghfgfdgh dghdfgdf gdhdfg
+                iption
+              </p>
+            </div>
+          </div>
+          <div class="info-members">
+            <div class="tab-header">
+              <p>Members</p>
+              <img src="./asset/Add.svg" alt="" />
+            </div>
+            <div class="tab-groups chat-member">
+              <div class="tab-group-chat">
+                <div class="profile">
+                  <img src="https://source.unsplash.com/random/34X34" alt="" />
+                </div>
+                <div class="tab-group-chat-text">
+                  <div class="title-container">
+                    <p id="group-member">Timoth@gdshfsj.com</p>
+                    <a href="#">Remove</a>
+                  </div>
+                  <div class="group-messages">
+                    <p>suervisor</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-groups chat-member">
+              <div class="tab-group-chat">
+                <div class="profile">
+                  <img src="https://source.unsplash.com/random/34X34" alt="" />
+                </div>
+                <div class="tab-group-chat-text">
+                  <div class="title-container">
+                    <p id="group-member">Timoth@gdshfsj.com</p>
+                    <a href="#">Remove</a>
+                  </div>
+                  <div class="group-messages">
+                    <p>admin</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-groups chat-member">
+              <div class="tab-group-chat">
+                <div class="profile">
+                  <img src="https://source.unsplash.com/random/34X34" alt="" />
+                </div>
+                <div class="tab-group-chat-text">
+                  <div class="title-container">
+                    <p id="group-member">Timoth@gdshfsj.com</p>
+                    <a href="#">Remove</a>
+                  </div>
+                  <div class="group-messages"></div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-groups chat-member">
+              <div class="tab-group-chat">
+                <div class="profile">
+                  <img src="https://source.unsplash.com/random/34X34" alt="" />
+                </div>
+                <div class="tab-group-chat-text">
+                  <div class="title-container">
+                    <p id="group-member">Timoth@gdshfsj.com</p>
+                    <a href="#">Remove</a>
+                  </div>
+                  <div class="group-messages"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--     <div class="container-fluid">
+        <div class="row">
+            <div class="col-1">
+                one
+            </div>
+            <div class="col-3 d-flex justify-content-between align-items-center">
+                <p>groups</p>
+                <img src="./asset/Add.svg" alt="">
+            </div>
+            <div class="col-5 d-flex justify-content-between align-items-center">
+                <p>group names</p>
+                <div class="input-group">
+                    
+                        <img src="./asset/Search.svg"  class="input-group-text" alt="">
+                    
+                    <input type="text" placeholder="connect">
+                    <button class="btn-close input-group-text"></button>
+                    
+                        <img  class="input-group-text" src="./asset/Dismiss.svg" alt="">
+                    
+                </div>
+                <a href="#" class="btn btn-danger">leave</a>
+            </div>
+            <div class="col-3 d-flex align-items-center">
+                <div class="form-check form-switch">
+                    <input type="checkbox" class="form-check-input" role="switch" id="flexSwitch">
+                    <label for="flexSwitch" class="form-chek-label">agent</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input type="checkbox" class="form-check-input" id="flexSwitch">
+                    <label for="flexSwitch" class="form-chek-label">admin</label>
+                </div>
+            </div>
+        </div> -->
+
+    <!-- </div> -->
+
+    <div class="bot-container">
       <iframe
         class="bot-frame"
         height="629"
@@ -35,14 +600,18 @@
 
     <script>
       function displayBot() {
-        document.querySelector(".container").style.display = "block";
+        document.querySelector(".bot-container").style.display = "block";
         document.querySelector(".chat-icon").style.display = "none";
         document.querySelector(".bot-frame").src = "./chatbot.html";
       }
 
       function closeBot() {
-        document.querySelector(".container").style.display = "none";
-        document.querySelector(".chat-icon").style.display = "block";
+        document.querySelector(".bot-container").style.display = "none";
+        document.querySelector(".chat-icon").style.display = "flex";
+      }
+
+      function openNav() {
+        document.querySelector(".blank").style.display = "flex";
       }
 
       /*  let btn = document.querySelector('.chat-icon');
